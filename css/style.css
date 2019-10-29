@@ -56,7 +56,7 @@ nav a {
 @media screen and (max-width: 767px) {
   .topnav a {display: none;}
   .topnav a.trigram {display: inherit; align-self: flex-end;}
-}--*/
+}
 
 @media screen and (max-width: 767px) {
   .topnav.responsive {align-items: center;}
@@ -73,7 +73,6 @@ nav a {
 .slideshow {
   background-color: #CCC;
   width: 100%;
-  height: 400px;
 }
 .thumb {
   background-position: center center;
@@ -143,7 +142,7 @@ nav a {
   display: inline-block;
 }
 .dot img {
-  width: 100%
+  width: 100%;
 }
 .dot.active {
   background: #333;
