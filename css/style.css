@@ -100,10 +100,13 @@ nav a {
   padding: 1em;
 }
 .one .thumb {
-  background-image: url('../img/coffee.jpg');
+  background-image: url('../images/Alstroemeria.jpg');
 }
 .two .thumb {
-  background-image: url('../img/coffee.jpg');
+  background-image: url('../images/BleedingHeart.jpg');
+}
+.three .thumb {
+  background-image: url('../images/Columbine.jpg');
 }
 
 .slideshow {
