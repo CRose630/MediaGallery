@@ -108,6 +108,33 @@ nav a {
 .three .thumb {
   background-image: url('../images/Columbine.jpg');
 }
+.four .thumb {
+  background-image: url('../images/Dahlia.jpg');
+}
+.five .thumb {
+  background-image: url('../images/English Bluebell.jpg');
+}
+.six .thumb {
+  background-image: url('../images/Foxglove.jpg');
+}
+.seven .thumb {
+  background-image: url('../images/Geranium.jpg');
+}
+.eight .thumb {
+  background-image: url('../images/Hibiscus.jpg');
+}
+.nine .thumb {
+  background-image: url('../images/Iris.jpg');
+}
+.ten .thumb {
+  background-image: url('../images/Jonquil.jpg');
+}
+.eleven .thumb {
+  background-image: url('../images/Marigold.jpg');
+}
+.twelve .thumb {
+  background-image: url('../images/Nymphea.jpg');
+}
 
 .slideshow {
   width: 100%;
