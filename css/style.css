@@ -70,10 +70,6 @@ nav a {
 }
 
 /*--slideshow rules--*/
-.slideshow {
-  background-color: #CCC;
-  width: 100%;
-}
 .thumb {
   background-position: center center;
   background-size: cover;
@@ -117,6 +113,7 @@ nav a {
 .twelve .thumb {  background-image: url('../images/Nymphea.jpg');}
 
 .slideshow {
+  background-color: #DDD;
   width: 100%;
   margin-bottom: 1em;
   padding: 1em;
@@ -174,7 +171,7 @@ nav a {
    background-color: rgba(10, 10, 10, .4); /*--slightly transparent--*/
 }
 .modal-content {
-   background-color: rgba(230, 230, 230, .9);
+   background-color: rgba(230, 230, 230, .95);
    color: var(--text);
    margin: 4rem auto;
    padding: 3em;
