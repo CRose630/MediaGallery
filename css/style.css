@@ -174,10 +174,11 @@ nav a {
    background-color: rgba(10, 10, 10, .4); /*--slightly transparent--*/
 }
 .modal-content {
-   background-color: var(--bg);
+   background-color: rgba(230, 230, 230, .9);
    color: var(--text);
-   margin: 1rem auto;
-   padding: 1em;
+   margin: 4rem auto;
+   padding: 3em;
+   padding-bottom: 2em;
    width: 92%;
    border-radius: 4px;
    animation: fadein .3s ease-in-out; /*-- sets animation properties: name, duration, easing --*/
