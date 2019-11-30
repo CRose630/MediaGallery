@@ -31,6 +31,21 @@ nav {
   z-index: 1000;
   width: 100%;
 }
+
+a.nav-links {
+  position: relative;
+  text-align: center;
+  padding: .5em;
+  margin: auto 0;
+  transition: color 150ms ease-in-out;
+}
+a.nav-links:hover {
+  color: #ffd95c;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
 @media screen and (min-width: 768px) {
   nav {flex-direction: row;}
 }
