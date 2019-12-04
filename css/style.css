@@ -13,10 +13,9 @@ body, section, div, article, aside, h1, h2, h3, h4, h5, h6, p {
 /*-- Document Styles --*/
 footer {
   background-color: #333;
-  color: #ddd;
+  color: #f2f2f2;
   padding: 1em;
   text-align: center;
-  margin-top: 2em;
 }
 nav {
   margin-top: -.25rem;
@@ -25,7 +24,7 @@ nav {
   justify-content: space-around;
   align-content: center;
   background-color: #105132;
-  color: #DDD;
+  color: #f2f2f2;
   padding: 1em;
   position: fixed;
   z-index: 1000;
@@ -49,7 +48,7 @@ a.nav-links:hover {
 }
 
 nav a {
-  color: #DDD;
+  color: #f2f2f2;
   text-decoration: none;
 }
 .trigram {
@@ -64,21 +63,96 @@ nav a {
 }
 
 /*--slideshow rules--*/
+
+.slideshow {
+  background-color: #333;
+  width: 100%;
+}
+
+.caption {
+  background: rgba(0,0,0,0.4);
+  color: #f2f2f2;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+.numberof {
+  color: #f2f2f2; /*-- sets color to almost white --*/
+  font-size: 12px; /*-- sets font size --*/
+  padding: 8px 12px; /*-- sets numberof padding --*/
+  position: absolute; /*-- positions numberof text absolutely--*/
+  top: 50px; /*-- sets position hard to the top--*/
+}
+.slideshow img {
+  width: 100%;
+}
+.slideshow-wrap {
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+}
+.prev, .next {
+  font-size: 2em;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  color: #f2f2f2;
+  padding: .5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border-radius: 3px;
+}
+.next {
+  right: 0;
+}
+.prev:hover, .next:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dot-wrap {
+  text-align: center;
+  padding: 1em;
+}
+.dot {
+  width: 15%;
+  display: inline-block;
+  margin-right: .5em;
+  margin-left: .5em;
+}
+.dot img {
+  width: 100%;
+}
+.dot.active {
+  background: #333;
+}
+
+
+
+
 .thumb {
   background-position: center center;
   background-size: cover;
   padding-bottom: 56%;
 }
 .grid-container {
+  background-color: #a3c1d6;
   display: grid;
   grid-gap: 1em;
   grid-template-columns: 1fr;
+  padding: .5em;
+  padding-bottom: 1em;
 }
 
 .card {
+  background-color: #f2f2f2;
   border: 1px solid #333;
+  border-radius: 3px;
 }
 .card-content {
+  color: #333;
   padding: 1em;
   display: flex;
   flex-direction: column;
@@ -98,61 +172,6 @@ nav a {
 .eleven .thumb {  background-image: url('../images/Marigold.jpg');}
 .twelve .thumb {  background-image: url('../images/Nymphea.jpg');}
 
-.slideshow {
-  background-color: #c0d2df;
-  width: 100%;
-  margin-bottom: 1em;
-  padding: 1em;
-}
-
-.caption {
-  background: rgba(0,0,0,0.4);
-  color: #f2f2f2;
-  font-size: 22px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  text-align: center; 
-}
-
-.slideshow img {
-  width: 100%;
-}
-.slideshow-wrap {
-  position: relative;
-  max-width: 1440px;
-  margin: auto;
-}
-.prev, .next {
-  position: absolute;
-  top: 50%;
-  width: auto;
-  color: #DDD;
-
-}
-.next {
-  right: 0;
-}
-.prev:hover, .next:hover {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.dot-wrap {
-  text-align: center;
-}
-.dot {
-  width: 15%;
-  display: inline-block;
-  margin-right: .5em;
-  margin-left: .5em;
-}
-.dot img {
-  width: 100%;
-}
-.dot.active {
-  background: #333;
-}
 
 
 .modal {
