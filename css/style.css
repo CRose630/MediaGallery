@@ -82,14 +82,15 @@ nav a {
 .numberof {
   color: #f2f2f2; /*-- sets color to almost white --*/
   font-size: 12px; /*-- sets font size --*/
-  padding: 8px 12px; /*-- sets numberof padding --*/
+  padding: .5em 1em; /*-- sets numberof padding --*/
   position: absolute; /*-- positions numberof text absolutely--*/
-  top: 50px; /*-- sets position hard to the top--*/
+  top: 1em; /*-- sets position hard to the top--*/
 }
 .slideshow img {
   width: 100%;
 }
 .slideshow-wrap {
+  top: 4em;
   position: relative;
   max-width: 1440px;
   margin: auto;
@@ -114,7 +115,8 @@ nav a {
 
 .dot-wrap {
   text-align: center;
-  padding: 1em;
+  padding: 5em;
+  padding-bottom: 1em;
 }
 .dot {
   width: 15%;
