@@ -30,7 +30,9 @@ nav {
   z-index: 1000;
   width: 100%;
 }
-
+form {
+  padding-top:.75em;
+}
 a.nav-links {
   position: relative;
   text-align: center;
@@ -98,7 +100,7 @@ nav a {
 .prev, .next {
   font-size: 2em;
   position: absolute;
-  top: 40%;
+  top: 37%;
   width: auto;
   color: #f2f2f2;
   padding: .5em;
@@ -149,6 +151,8 @@ nav a {
 }
 
 .card {
+  text-decoration: underline #f2f2f2;
+  min-height: 300px;
   background-color: #f2f2f2;
   border: 1px solid #333;
   border-radius: 3px;
@@ -159,6 +163,10 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.title {
+  text-decoration: underline;
+  padding: .5em;
 }
 
 .one .thumb {  background-image: url('../images/Alstroemeria.jpg');}
@@ -197,16 +205,16 @@ nav a {
    border-radius: 4px;
    animation: fadein .3s ease-in-out; /*-- sets animation properties: name, duration, easing --*/
 }
+
 @keyframes fadein {
   from{transform:scale(.1);} /*-- modal grows from very small to full size--*/
 }
 .close {
-   color: var(--text);
    font-size: 2.5em;
    font-weight: bold;
    position: absolute; /*-- always at the top right of the modal --*/
-   top: 5px;
-   right: 4.25%;
+   top: 80px;
+   right: 6%;
    transition: all .2s ease-in;
    text-shadow: 2px 2px 5px #FAFAFA,
                -2px -2px 5px #FAFAFA,
@@ -215,7 +223,7 @@ nav a {
 }
 .close:hover,
 .close:focus {
-   color: var(--accent);
+   color: #ffd95c;
    text-decoration: none;
    cursor: pointer;
 }

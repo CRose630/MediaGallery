@@ -12,32 +12,37 @@
   <body>
     <nav class="topnav" id="main-nav">
       <a href="#" class="nav-links"><i class="fas fa-home"></i>Home</a>
-      <a href="#" class="nav-links"><i class="fas fa-leaf"></i>Flowers By Meaning</a>
+      <a href="#" class="nav-links"><i class="fas fa-leaf"></i>Flowers by Meaning</a>
       <a href="#" class="nav-links"><i class="fas fa-shopping-cart"></i>Shop</a>
       <a href="#" class="nav-links"><i class="fas fa-info-circle"></i>About Us</a>
       <a href="javascript:void(0);" class="nav-link trigram" onclick="navToggle()">&#9776;</a>
+      <form action="http://www.example.com/subscribe.php">
+        <input type="text" name="email" placeholder="johndoe@email.com"/>
+        <input type="submit" name="subscribe"
+               value="Subscribe" />
+      </form>
     </nav>
     <section class="slideshow">
       <div class="slideshow-wrap">
         <div class="slide fade">
           <div class="numberof">1 of 4</div>
           <img src="https://picsum.photos/1289/500/?image=360" alt="slide one">
-          <p class="caption"> Lorem ipsum dolot sit SLIDE ONE</p>
+          <p class="caption">Many flowers have specific meanings used to convey messages, especially when making a bouquet.</p>
         </div><!---end.slide--->
         <div class="slide fade">
           <div class="numberof">2 of 4</div>
           <img src="https://picsum.photos/1289/500/?image=306" alt="slide two">
-          <p class="caption"> Lorem ipsum dolot sit SLIDE TWO</p>
+          <p class="caption">Other flowers have cultural significance.</p>
         </div><!---end.slide--->
         <div class="slide fade">
           <div class="numberof">3 of 4</div>
           <img src="https://picsum.photos/1289/500/?image=696" alt="slide three">
-          <p class="caption"> Lorem ipsum dolot sit SLIDE THREEE</p>
+          <p class="caption">It's amazing what a simple blossom can represent!</p>
         </div><!---end.slide--->
         <div class="slide fade">
           <div class="numberof">4 of 4</div>
           <img src="https://picsum.photos/1289/500/?image=239" alt="slide four">
-          <p class="caption"> Lorem ipsum dolot sit SLIDE FOUR</p>
+          <p class="caption">Some flowers have meanings you may already know. Have you ever wished for something using a dandelion?</p>
         </div><!---end.slide--->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -55,7 +60,7 @@
         <div class="card one">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Alstroemeria</h3>
+            <h3 class="title">Alstroemeria</h3>
             <p>Devotion and Friendship</p>
             <button class="push-button">Read More</button>
           </div>
@@ -67,7 +72,7 @@
   				<div class="modal-body">
             <img src="./images/Alstroemeria.jpg" alt="example" />
   					<div class="eg-text">
-  						<h3>Alstroemeria</h3>
+  						<h3>Alstroemeria</h3><br>
   						<p>Also known as the Peruvian lily or the lily of the Incas, this flower is native to South America. These flowers symbolize friendship and devotion.</p>
   					</div>
   				</div><!--end .modal-body-->
@@ -77,7 +82,7 @@
         <div class="card two">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Bleeding Heart</h3>
+            <h3 class="title">Bleeding Heart</h3>
             <p>Romance, Purity, and Innocence</p>
         <button class="push-button">Read More</button>
           </div>
@@ -89,7 +94,7 @@
   				<div class="modal-body">
             <img src="./images/BleedingHeart.jpg" alt="example" />
   					<div class="eg-text">
-  						<h3>Bleeding Heart</h3>
+  						<h3>Bleeding Heart</h3><br>
   						<p>The bleeding heart most often symbolizes romance, while the white version of this flower symbloizes innocence and purity. The white flower often represents young women who have died tragically.</p>
   					</div>
   				</div><!--end .modal-body-->
@@ -99,7 +104,7 @@
         <div class="card three">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Columbine</h3>
+            <h3 class="title">Columbine</h3>
             <p>Faith, Innocence, and Foolishness</p>
             <button class="push-button">Read More</button>
           </div>
@@ -111,7 +116,7 @@
   				<div class="modal-body">
             <img src="./images/Columbine.jpg" alt="example" />
   					<div class="eg-text">
-  						<h3>Columbine</h3>
+  						<h3>Columbine</h3><br>
   						<p>The columbine has had a multitude of meaning over the centuries. The root of its name means dove, while the root of its latin name, Aquilegia, translates to eagle.</p>
   					</div>
   				</div><!--end .modal-body-->
@@ -121,7 +126,7 @@
         <div class="card four">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Dahlia</h3>
+            <h3 class="title">Dahlia</h3>
             <p>Commitment and Perseverance</p>
             <button class="push-button">Read More</button>
           </div>
@@ -133,7 +138,7 @@
   				<div class="modal-body">
             <img src="./images/Dahlia.jpg" alt="example" />
   					<div class="eg-text">
-  						<h3>Dahlia</h3>
+  						<h3>Dahlia</h3><br>
   						<p>The dahlia was used to represent a lasting bond between two people by the Victorians. However, in modern times it can be used to celebrate joining a new religion or starting a healthy habit.</p>
   					</div>
   				</div><!--end .modal-body-->
@@ -143,8 +148,8 @@
         <div class="card five">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>English Bluebell</h3>
-            <p>Humility, Gratitude, Love, and Constancy</p>
+            <h3 class="title">English Bluebell</h3>
+            <p>Humility, Gratitude, and Love</p>
             <button class="push-button">Read More</button>
           </div>
         </div>
@@ -155,7 +160,7 @@
          <div class="modal-body">
            <img src="./images/English Bluebell.jpg" alt="example" />
            <div class="eg-text">
-             <h3>English Bluebell</h3>
+             <h3>English Bluebell</h3><br>
              <p>These flowers are also called harebells in Scotland becuase it is believed that witches would transform into hares and hide amoong this type of flower.</p>
            </div>
          </div><!--end .modal-body-->
@@ -165,8 +170,8 @@
         <div class="card six">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Foxglove</h3>
-            <p>Creativity, Insincerity, and Confidence</p>
+            <h3 class="title">Foxglove</h3>
+            <p>Creativity and Confidence</p>
             <button class="push-button">Read More</button>
           </div>
         </div>
@@ -177,7 +182,7 @@
   				<div class="modal-body">
             <img src="./images/Foxglove.jpg" alt="example" />
   					<div class="eg-text">
-  						<h3>Foxglove</h3>
+  						<h3>Foxglove</h3><br>
   						<p>In folklore, picking foxglove is said to offend faeries. This flower is also a source of the drug digitalis and is a popular food source for hummingbirds.</p>
   					</div>
   				</div><!--end .modal-body-->
@@ -187,7 +192,7 @@
         <div class="card seven">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Geranium</h3>
+            <h3 class="title">Geranium</h3>
             <p>Friendship, Folly, and Melancholy</p>
              <button class="push-button">Read More</button>
           </div>
@@ -199,7 +204,7 @@
          <div class="modal-body">
            <img src="./images/Geranium.jpg" alt="example" />
            <div class="eg-text">
-             <h3>Geranium</h3>
+             <h3>Geranium</h3><br>
              <p>White geraniums were once believed to repel snakes, and geranium leaves can be dried to make tea and can be used to make a compress to relieve pain.</p>
            </div>
          </div><!--end .modal-body-->
@@ -209,8 +214,8 @@
         <div class="card eight">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Hibiscus</h3>
-            <p>Delicate Beauty and Fleeting Personal Glory </p>
+            <h3 class="title">Hibiscus</h3>
+            <p>Delicate Beauty and Fleeting Glory </p>
             <button class="push-button">Read More</button>
           </div>
         </div>
@@ -221,7 +226,7 @@
   				<div class="modal-body">
             <img src="./images/Hibiscus.jpg" alt="example" />
   					<div class="eg-text">
-  						<h3>Hibiscus</h3>
+  						<h3 class="title">Hibiscus</h3><br>
   						<p>Claimed to help reduce blood pressure when used in teas, the hibiscus is also the state flower of Hawaii.</p>
   					</div>
   				</div><!--end .modal-body-->
@@ -231,7 +236,7 @@
         <div class="card nine">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Iris</h3>
+            <h3 class="title">Iris</h3>
             <p>Faith, Hope, and Wisdom</p>
           <button class="push-button">Read More</button>
           </div>
@@ -243,7 +248,7 @@
   				<div class="modal-body">
             <img src="./images/Iris.jpg" alt="example" />
   					<div class="eg-text">
-  						<h3>Iris</h3>
+  						<h3>Iris</h3><br>
   						<p>This flower is named after the Greek goddess of rainbows, as it comes in a variety of colors. They can also be candied as a delicacy.</p>
   					</div>
   				</div><!--end .modal-body-->
@@ -253,7 +258,7 @@
         <div class="card ten">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Jonquil</h3>
+            <h3 class="title">Jonquil</h3>
             <p>Desire and Sorrow</p>
             <button class="push-button">Read More</button>
           </div>
@@ -265,7 +270,7 @@
   				<div class="modal-body">
             <img src="./images/Jonquil.jpg" alt="example" />
   					<div class="eg-text">
-  						<h3>Jonquil</h3>
+  						<h3>Jonquil</h3><br>
   						<p>The meanings of the jonquil stem from a Greek myth. Proserpina was gathering lilies when she was kidnapped by the god of the underworld, Pluto. When she dropped the lilies, they turned into jonquils.</p>
   					</div>
   				</div><!--end .modal-body-->
@@ -275,7 +280,7 @@
         <div class="card eleven">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Marigold</h3>
+            <h3 class="title">Marigold</h3>
             <p>Passion, Cruelty, and Jealousy</p>
           <button class="push-button">Read More</button>
           </div>
@@ -287,7 +292,7 @@
          <div class="modal-body">
            <img src="./images/Marigold.jpg" alt="example" />
            <div class="eg-text">
-             <h3>Marigold</h3>
+             <h3>Marigold</h3><br>
              <p>Marigold blooms can be used to ease pain cause by bee stings. There is a superstition that states that picking marigolds can turn you into a drunkard.</p>
            </div>
          </div><!--end .modal-body-->
@@ -297,7 +302,7 @@
         <div class="card twelve">
           <div class="thumb"></div>
           <div class="card-content">
-            <h3>Nymphaea</h3>
+            <h3 class="title">Nymphaea</h3>
             <p>Peace and Purity</p>
             <button class="push-button">Read More</button>
           </div>
@@ -309,7 +314,7 @@
   				<div class="modal-body">
             <img src="./images/Nymphea.jpg" alt="example" />
   					<div class="eg-text">
-  						<h3>Nymphaea</h3>
+  						<h3 class="title">Nymphaea</h3><br>
   						<p>The water lily is very prominent in both Buddhism and Hinduism and it represents the cycle of life and death.</p>
   					</div>
   				</div><!--end .modal-body-->
@@ -317,7 +322,7 @@
   		</div><!--end .modal-->
       </article>
       <footer>
-        <p>&copy; 2019, Alaina Wagner</p>
+        <p>&copy; 2019, Alaina Wagner &nbsp;|&nbsp; All photos from <a href="https://unsplash.com/">unsplash</a> via <a href="https://picsum.photos/">Lorem Picsum</a>.</p>
         </footer>
         <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
