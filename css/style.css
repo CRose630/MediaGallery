@@ -121,16 +121,16 @@ nav a {
   padding-bottom: 1em;
 }
 .dot {
+  opacity: .5;
   width: 15%;
   display: inline-block;
   margin-right: .5em;
   margin-left: .5em;
 }
-.dot img {
-  width: 100%;
-}
-.dot.active {
+
+.dot.active, .dot:hover {
   background: #333;
+  opacity: 1;
 }
 
 
@@ -155,6 +155,10 @@ nav a {
   min-height: 300px;
   background-color: #f2f2f2;
   border: 1px solid #333;
+  border-radius: 3px;
+}
+.card:hover {
+  border: 1px solid #ffd95c;
   border-radius: 3px;
 }
 .card-content {
